@@ -19,6 +19,19 @@ def brute_eq():
     f = int(input())
 
     # YOUR CODE HERE
-    
+    print(str(a) + 'x + ' + str(b) + 'y = ' + str(c))
+    print(str(d) + 'x + ' + str(e) + 'y = ' + str(f))
+    seq = range(-10, 10, 1)
+    check = False
+    for x in seq :
+        for y in seq :
+            if a*x + b*y == c and d*x + e*y == f :
+                check = True
+                print("x = " + str(x) , "y = " + str(y))
+    if check == False :
+        print('No Solution')
+
+
+
 if __name__ == "__main__":
     brute_eq()
