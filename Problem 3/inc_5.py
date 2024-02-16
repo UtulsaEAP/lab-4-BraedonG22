@@ -16,7 +16,5 @@ def inc_5():
         for num in sequence :
             print(f'{str(num)}' , end = ' ' )
         
-
-
 if __name__ == "__main__":
     inc_5()

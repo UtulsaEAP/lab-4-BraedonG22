@@ -8,17 +8,13 @@ Lab Time: Friday, 3:00 pm
 """
 
 def brute_eq():
-    #Read in first equation, ax + by = c 
     a = int(input())
     b = int(input())
     c = int(input())
-
-    #Read in second equation, dx + ey = f
     d = int(input())
     e = int(input())
     f = int(input())
 
-    # YOUR CODE HERE
     print(str(a) + 'x + ' + str(b) + 'y = ' + str(c))
     print(str(d) + 'x + ' + str(e) + 'y = ' + str(f))
     seq = range(-10, 10, 1)
@@ -30,8 +26,6 @@ def brute_eq():
                 print("x = " + str(x) , "y = " + str(y))
     if check == False :
         print('No Solution')
-
-
 
 if __name__ == "__main__":
     brute_eq()
