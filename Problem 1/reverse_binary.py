@@ -7,7 +7,7 @@ Lab Time: Friday, 3:00 pm
 
 
 def reverse_binary():
-    user_num = int(input("Please provide a positive integer: "))
+    user_num = int(input())
     # YOUR CODE HERE
     x = user_num
     while x > 0 :

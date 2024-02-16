@@ -23,9 +23,9 @@ def brute_eq():
         for y in seq :
             if a*x + b*y == c and d*x + e*y == f :
                 check = True
-                print("x = " + str(x) , "y = " + str(y))
+                print("x = " + str(x) + " , y = " + str(y))
     if check == False :
-        print('No Solution')
+        print('There is no solution')
 
 if __name__ == "__main__":
     brute_eq()

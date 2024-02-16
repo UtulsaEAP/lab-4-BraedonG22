@@ -7,11 +7,13 @@ Lab Time: Friday, 3:00 pm
 
 def inc_5():
     # Write your code here
-    num1 = int(input("Please provide a multiple of 5: "))
-    num2 = int(input("Please provide another multiple of 5 that is greater than the first: "))
-    sequence = range(num1 , num2 + 5 , 5)
+    num1 = int(input())
+    num2 = int(input())
+    sequence = range(num1 , num2 + 1 , 5)
     if num1>num2 :
-        print("Second number must be greater than the first.")
+        print("Second integer can't be less than the first.")
+    elif num1 == num2 :
+        print(num1)
     else :
         for num in sequence :
             print(f'{str(num)}' , end = ' ' )
