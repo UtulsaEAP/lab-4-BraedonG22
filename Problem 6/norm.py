@@ -6,7 +6,6 @@ Lab Time: Friday, 3:00 pm
 """
 
 def norm():
-    # Write your code here
     task = str("Provide 5 integer values")
     print(task)
     v1 = int(input())
@@ -44,5 +43,6 @@ def norm():
         print(f'{v3/v5:.2f}')
         print(f'{v4/v5:.2f}')
         print(f'{v5/v5:.2f}')
+
 if __name__ == "__main__":
     norm()
